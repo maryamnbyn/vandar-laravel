@@ -1,12 +1,12 @@
 {
-  "name": "rfmhb2/vandar-laravel",
+  "name": "maryamnbyn/vandar-laravel",
   "description": "laravel library for vandar gateway",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Mohammad Hassan Rezaei tabar",
-      "email": "mohammadhassanbolivand@gmail.com"
+      "name": "Maryam Nabiyan",
+      "email": "maryam.nbyn@gmail.com"
     }
   ],
   "scripts": {
