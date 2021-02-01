@@ -55,9 +55,6 @@ class Vandar
 
     public function redirectUrl($token = null)
     {
-        var_dump($this->token);
-        var_dump($token);
-        die();
         return $this->redirectUrl . 'v3/'.($this->token ?? $token);
     }
 
