@@ -7,7 +7,7 @@ use Vandar\Drivers\RestDriver;
 
 class Vandar
 {
-    private $redirectUrl = "https://vandar.io/ipg/";
+    private $redirectUrl = "https://ipg.vandar.io/";
     private $api;
     private $driver;
     private $token;
@@ -55,7 +55,7 @@ class Vandar
 
     public function redirectUrl($token = null)
     {
-        return $this->redirectUrl . 'v3'.($this->token ?? $token);
+        return $this->redirectUrl . 'v3/'.($this->token ?? $token);
     }
 
     public function enableTest()
