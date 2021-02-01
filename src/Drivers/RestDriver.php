@@ -4,7 +4,7 @@ namespace Vandar\Drivers;
 
 class RestDriver implements DriverInterface
 {
-    protected $baseUrl = "https://vandar.io/api/ipg/";
+    protected $baseUrl = "https://ipg.vandar.io/";
 
     public function request($uri, $inputs)
     {
