@@ -8,7 +8,7 @@ Installation
 step 1
 
 run this command :
-composer require maryamnbyn/vandar-laravel/ipg
+composer require maryamnbyn/vandar-laravel
 
 step 2
 
