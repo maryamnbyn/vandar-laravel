@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="540a0db3-ad84-4481-88e5-95243640172a" name="Default Changelist" comment="" />
+    <list default="true" id="540a0db3-ad84-4481-88e5-95243640172a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/ipg/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/src/Drivers/DriverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drivers/DriverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/src/Drivers/RestDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Drivers/RestDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/src/Laravel/Facade/Vandar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laravel/Facade/Vandar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/src/Laravel/VandarServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Laravel/VandarServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/src/Vandar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Vandar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ipg/tests/GatewayTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/GatewayTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +42,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="/var/www/blog" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
