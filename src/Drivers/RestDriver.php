@@ -38,6 +38,6 @@ class RestDriver implements DriverInterface
 
     public function enableTest()
     {
-        $this->baseUrl .= "test/";
+        $this->baseUrl = "https://vandar.io/ipg/test/";
     }
 }
