@@ -4,6 +4,7 @@ namespace Vandar;
 
 use Vandar\Drivers\DriverInterface;
 use Vandar\Drivers\RestDriver;
+use function Couchbase\defaultDecoder;
 
 class Vandar
 {
@@ -53,14 +54,31 @@ class Vandar
         die();
     }
 
+
+
     public function redirectUrl($token = null)
     {
-        return $this->redirectUrl . 'v3/'.($this->token ?? $token);
+        return $this->redirectUrl . 'v3/' . ($this->token ?? $token);
     }
+
+
 
     public function enableTest()
     {
         $this->redirectUrl .= "test/";
         $this->driver->enableTest();
+    }
+
+
+    public function requestInfo($token)
+    {
+        $inputs = [
+             'api_key' => $this->api,
+             'token' => $token,
+        ];
+        $result = $this->driver->request("api/ipg/2step/transaction", $inputs);
+        $res =  json_encode($result,true );
+
+        return json_decode($res,true ) ;
     }
 }
