@@ -38,6 +38,10 @@ After user made payment, vandar redirect user to $callback with a token in url. 
 
 $token=$_GET['token'];
 $result = Vandar::verify($token);
+
+for get info of transaction you can make requestInfo method and send token for that then you can get information:
+$result = Vandar::requestInfo($token);
+
 you can read more about responses and api here.
 bug report
 
