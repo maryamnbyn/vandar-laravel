@@ -76,9 +76,6 @@ class Vandar
              'api_key' => $this->api,
              'token' => $token,
         ];
-        $result = $this->driver->request("api/ipg/2step/transaction", $inputs);
-        $res =  json_encode($result,true );
-
-        return json_decode($res,true ) ;
+        return $this->driver->request("api/ipg/2step/transaction", $inputs);
     }
 }
