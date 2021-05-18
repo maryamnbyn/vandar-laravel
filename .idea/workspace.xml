@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="540a0db3-ad84-4481-88e5-95243640172a" name="Default Changelist" comment="" />
+    <list default="true" id="540a0db3-ad84-4481-88e5-95243640172a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vms-direct-debit" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -43,6 +45,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612685013173</updated>
       <workItem from="1612685015566" duration="1459000" />
+      <workItem from="1620562413491" duration="7247000" />
+      <workItem from="1620624746395" duration="22000" />
     </task>
     <servers />
   </component>
@@ -50,9 +54,13 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="609" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1612691776269">
+    <state x="609" y="221" width="424" height="491" key="FileChooserDialogImpl" timestamp="1620624765131">
       <screen x="52" y="27" width="1548" height="873" />
     </state>
-    <state x="609" y="221" width="424" height="491" key="FileChooserDialogImpl/52.27.1548.873@52.27.1548.873" timestamp="1612691776269" />
+    <state x="609" y="221" width="424" height="491" key="FileChooserDialogImpl/52.27.1548.873@52.27.1548.873" timestamp="1620624765131" />
+    <state x="518" y="186" width="616" height="554" key="find.popup" timestamp="1620569899682">
+      <screen x="52" y="27" width="1548" height="873" />
+    </state>
+    <state x="518" y="186" width="616" height="554" key="find.popup/52.27.1548.873@52.27.1548.873" timestamp="1620569899682" />
   </component>
 </project>
